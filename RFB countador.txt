@@ -1,0 +1,232 @@
+Limpar pasta: C:\Users\Giovani\AppData\Local\Temp\
+Redis já está instalado.
+Console: 2025-08-13 18:01:05 - <<<<<<<<<<<<<<<<<<<<<<< CommandJob: Inicio
+Console: 2025-08-13 18:01:05 - Subordinate: fe80::f1a:5326:9367:88cd%12  -  DESKTOP-23D1AEA
+Console: 2025-08-13 18:01:05 - Request iniciado para saber se pode iniciar a Job (http://localhost:7241/api/command/main/valida-iniciar)
+Console: 2025-08-13 18:01:06 - Request finalizado para saber se pode iniciar a Job
+Info: 2025-08-13 18:01:06 -
+
+
+Console: 2025-08-13 18:01:06 - Iniciou Rotinas Inacabadas
+Info: 2025-08-13 18:01:06 - < ------------------------------------------------------------ >
+Info: 2025-08-13 18:01:06 - Tenant: erscontabilidadeltda387
+Info: 2025-08-13 18:01:06 - Rotinas: (CndFederalRfbPgfn)
+Info: 2025-08-13 18:01:06 - < ------------------------------------------------------------ >
+
+
+Console: 2025-08-13 18:01:06 - MonitorContabil.Domain.Jobs.Jobs.CndJob Iniciando criação Job
+Console: 2025-08-13 18:01:06 - MonitorContabil.Domain.Jobs.Jobs.CndJob Finalizado criação Job
+Console: 2025-08-13 18:01:06 - Finalizou criação da job das rotinas inacabadas
+>>> 13/08/2025 18:01:06 - JobBase - NOVO TENANT - erscontabilidadeltda387
+
+>>> 13/08/2025 18:01:06 - JobBase - MAQUINA - DESKTOP-23D1AEA
+
+Console: 2025-08-13 18:01:06 - Finalizou Start
+Console: 2025-08-13 18:01:06 - <><><><>><<>>><>><><><><><>
+Console: 2025-08-13 18:01:06 - Request atualizar ping maquina DESKTOP-23D1AEA
+Console: 2025-08-13 18:01:06 - <><><><>><<>>><>><><><><><>
+Console: 2025-08-13 18:01:06 - <><><><>NOVO TENANT erscontabilidadeltda387<><><><>
+Console: 2025-08-13 18:01:06 - <><><><>><<>>><>><><><><><>
+Console: 2025-08-13 18:01:06 - <><><><>><<>>><>><><><><><>
+Info: 2025-08-13 18:01:06 - DESKTOP-23D1AEA
+>>> 13/08/2025 18:01:06 - CndJob - Inicio - Cnd Federal RFB/PGFN
+
+Tentando obter tenant: erscontabilidadeltda387
+Tenant encontrado: erscontabilidadeltda387, Database: erscontabilidadeltda387
+Console: 2025-08-13 18:01:11 - ObterCnd: Início
+Console: 2025-08-13 18:01:11 - Nova empresa: 27.620.126/0002-04
+Console: 2025-08-13 18:01:11 - Iniciando busca de CND por API
+Console: 2025-08-13 18:01:19 - CndRfbPgfn (7s): 27620126000115 - 200 - A requisição foi processada com sucesso.
+Console: 2025-08-13 18:01:19 - Motivo: CERTIDÃO NEGATIVA DE DÉBITOS RELATIVOS AOS TRIBUTOS FEDERAIS E À DÍVIDA ATIVA DA UNIÃO
+Console: 2025-08-13 18:01:19 - Situação da CND: Negativa
+Console: 2025-08-13 18:01:19 -
+
+Console: 2025-08-13 18:01:19 - ----------------------------------------------
+Console: 2025-08-13 18:01:19 - Quantidade: 1/826
+Console: 2025-08-13 18:01:19 - Empresa: 27.620.126/0002-04
+Console: 2025-08-13 18:01:19 - ----------------------------------------------
+Console: 2025-08-13 18:01:19 -
+
+Console: 2025-08-13 18:01:19 - Vinculando filial 27.620.126/0002-04 à matriz 27.620.126/0001-15
+Console: 2025-08-13 18:01:20 - Vinculo: OK
+Console: 2025-08-13 18:01:20 - SalvarCnd: Inicio
+Console: 2025-08-13 18:01:23 - Enviado para a nuvem
+Console: 2025-08-13 18:01:23 - SalvarCnd: 27.620.126/0002-04 - SALVA
+Console: 2025-08-13 18:01:23 - ------------------------------
+Console: 2025-08-13 18:01:23 - Nova empresa: 14.204.979/0001-24
+Console: 2025-08-13 18:01:23 - Iniciando busca de CND por API
+Console: 2025-08-13 18:01:31 - CndRfbPgfn (7s): 14204979000124 - 200 - A requisição foi processada com sucesso.
+Console: 2025-08-13 18:01:31 - Motivo: CERTIDÃO POSITIVA COM EFEITOS DE NEGATIVA DE DÉBITOS RELATIVOS AOS TRIBUTOS FEDERAIS E À DÍVIDA ATIVA DA UNIÃO
+Console: 2025-08-13 18:01:31 - Situação da CND: PositivaEfeito
+Console: 2025-08-13 18:01:31 - SalvarCnd: Inicio
+Console: 2025-08-13 18:01:33 - Enviado para a nuvem
+Console: 2025-08-13 18:01:33 - SalvarCnd: 14.204.979/0001-24 - SALVA
+Console: 2025-08-13 18:01:33 - Empresa OK
+Console: 2025-08-13 18:01:33 -
+
+Console: 2025-08-13 18:01:33 - ----------------------------------------------
+Console: 2025-08-13 18:01:33 - Quantidade: 1/826
+Console: 2025-08-13 18:01:33 - Empresa: 14.204.979/0002-05
+Console: 2025-08-13 18:01:33 - ----------------------------------------------
+Console: 2025-08-13 18:01:33 -
+
+Console: 2025-08-13 18:01:33 - Vinculando filial 14.204.979/0002-05 à matriz 14.204.979/0001-24
+Console: 2025-08-13 18:01:33 - Vinculo: OK
+Console: 2025-08-13 18:01:33 - SalvarCnd: Inicio
+Console: 2025-08-13 18:01:34 - Enviado para a nuvem
+Console: 2025-08-13 18:01:34 - SalvarCnd: 14.204.979/0002-05 - SALVA
+Console: 2025-08-13 18:01:34 - ------------------------------
+Console: 2025-08-13 18:01:34 - Nova empresa: 14.100.239/0002-29
+Console: 2025-08-13 18:01:34 - Iniciando busca de CND por API
+Console: 2025-08-13 18:01:42 - CndRfbPgfn (7s): 14100239000148 - 200 - A requisição foi processada com sucesso.
+Console: 2025-08-13 18:01:42 - Motivo: CERTIDÃO POSITIVA COM EFEITOS DE NEGATIVA DE DÉBITOS RELATIVOS AOS TRIBUTOS FEDERAIS E À DÍVIDA ATIVA DA UNIÃO
+Console: 2025-08-13 18:01:42 - Situação da CND: PositivaEfeito
+Console: 2025-08-13 18:01:42 -
+
+Console: 2025-08-13 18:01:42 - ----------------------------------------------
+Console: 2025-08-13 18:01:42 - Quantidade: 1/826
+Console: 2025-08-13 18:01:42 - Empresa: 14.100.239/0002-29
+Console: 2025-08-13 18:01:43 - ----------------------------------------------
+Console: 2025-08-13 18:01:43 -
+
+Console: 2025-08-13 18:01:43 - Vinculando filial 14.100.239/0002-29 à matriz 14.100.239/0001-48
+Console: 2025-08-13 18:01:43 - Vinculo: OK
+Console: 2025-08-13 18:01:43 - SalvarCnd: Inicio
+Console: 2025-08-13 18:01:44 - Enviado para a nuvem
+Console: 2025-08-13 18:01:44 - SalvarCnd: 14.100.239/0002-29 - SALVA
+Console: 2025-08-13 18:01:44 - ------------------------------
+Console: 2025-08-13 18:01:44 -
+
+Console: 2025-08-13 18:01:44 - ----------------------------------------------
+Console: 2025-08-13 18:01:44 - Quantidade: 2/826
+Console: 2025-08-13 18:01:44 - Empresa: 14.100.239/0001-48
+Console: 2025-08-13 18:01:44 - ----------------------------------------------
+Console: 2025-08-13 18:01:44 -
+
+Console: 2025-08-13 18:01:44 - Vinculando filial 14.100.239/0001-48 à matriz 14.100.239/0001-48
+Console: 2025-08-13 18:01:44 - Vinculo: OK
+Console: 2025-08-13 18:01:44 - SalvarCnd: Inicio
+Console: 2025-08-13 18:01:45 - Enviado para a nuvem
+Console: 2025-08-13 18:01:45 - SalvarCnd: 14.100.239/0001-48 - SALVA
+Console: 2025-08-13 18:01:45 - ------------------------------
+Console: 2025-08-13 18:01:45 - Nova empresa: 10.573.076/0002-40
+Console: 2025-08-13 18:01:45 - Iniciando busca de CND por API
+Console: 2025-08-13 18:01:52 - CndRfbPgfn (7s): 10573076000160 - 611 - Os dados estão incompletos no site ou aplicativo de origem e não puderam ser retornados.
+Console: 2025-08-13 18:01:54 - Motivo: As informações disponíveis na Receita Federal sobre o contribuinte 10.573.076/0001-60 são insuficientes para emitir a certidão pela Internet.
+Console: 2025-08-13 18:01:54 - Situação da CND: Positiva
+Console: 2025-08-13 18:01:54 -
+
+Console: 2025-08-13 18:01:54 - ----------------------------------------------
+Console: 2025-08-13 18:01:54 - Quantidade: 1/826
+Console: 2025-08-13 18:01:54 - Empresa: 10.573.076/0002-40
+Console: 2025-08-13 18:01:54 - ----------------------------------------------
+Console: 2025-08-13 18:01:54 -
+
+Console: 2025-08-13 18:01:54 - Vinculando filial 10.573.076/0002-40 à matriz 10.573.076/0001-60
+Console: 2025-08-13 18:01:54 - Vinculo: OK
+Console: 2025-08-13 18:01:54 - SalvarCnd: Inicio
+Console: 2025-08-13 18:01:54 - Enviado para a nuvem
+Console: 2025-08-13 18:01:54 - SalvarCnd: 10.573.076/0002-40 - SALVA
+Console: 2025-08-13 18:01:54 - ------------------------------
+Console: 2025-08-13 18:01:54 - Nova empresa: 10.333.022/0001-27
+Console: 2025-08-13 18:01:54 - Iniciando busca de CND por API
+Console: 2025-08-13 18:02:02 - CndRfbPgfn (8s): 10333022000127 - 200 - A requisição foi processada com sucesso.
+Console: 2025-08-13 18:02:03 - Motivo: CERTIDÃO NEGATIVA DE DÉBITOS RELATIVOS AOS TRIBUTOS FEDERAIS E À DÍVIDA ATIVA DA UNIÃO
+Console: 2025-08-13 18:02:08 - Situação da CND: Negativa
+Console: 2025-08-13 18:02:08 - SalvarCnd: Inicio
+Console: 2025-08-13 18:02:09 - Enviado para a nuvem
+Console: 2025-08-13 18:02:09 - SalvarCnd: 10.333.022/0001-27 - SALVA
+Console: 2025-08-13 18:02:10 - Empresa OK
+Console: 2025-08-13 18:02:10 -
+
+Console: 2025-08-13 18:02:10 - ----------------------------------------------
+Console: 2025-08-13 18:02:10 - Quantidade: 1/826
+Console: 2025-08-13 18:02:10 - Empresa: 10.333.022/0002-08
+Console: 2025-08-13 18:02:10 - ----------------------------------------------
+Console: 2025-08-13 18:02:10 -
+
+Console: 2025-08-13 18:02:10 - Vinculando filial 10.333.022/0002-08 à matriz 10.333.022/0001-27
+Console: 2025-08-13 18:02:10 - Vinculo: OK
+Console: 2025-08-13 18:02:10 - SalvarCnd: Inicio
+Console: 2025-08-13 18:02:11 - Enviado para a nuvem
+Console: 2025-08-13 18:02:11 - SalvarCnd: 10.333.022/0002-08 - SALVA
+Console: 2025-08-13 18:02:11 - ------------------------------
+Console: 2025-08-13 18:02:11 -
+
+Console: 2025-08-13 18:02:11 - ----------------------------------------------
+Console: 2025-08-13 18:02:11 - Quantidade: 1/826
+Console: 2025-08-13 18:02:11 - Empresa: 05.682.283/0001-12
+Console: 2025-08-13 18:02:11 - ----------------------------------------------
+Console: 2025-08-13 18:02:11 -
+
+Console: 2025-08-13 18:02:11 - Nova empresa: 05.682.283/0001-12
+Console: 2025-08-13 18:02:11 - Iniciando busca de CND por API
+Console: 2025-08-13 18:02:26 - CndRfbPgfn (15s): 05682283000112 - 611 - Os dados estão incompletos no site ou aplicativo de origem e não puderam ser retornados.
+Console: 2025-08-13 18:02:27 - Motivo: As informações disponíveis na Receita Federal e na Procuradoria-Geral da Fazenda Nacional sobre o contribuinte 05.682.283/0001-12 são insuficientes para emitir a certidão pela Internet.
+Console: 2025-08-13 18:02:27 - Situação da CND: Positiva
+Console: 2025-08-13 18:02:27 - SalvarCnd: Inicio
+Console: 2025-08-13 18:02:27 - Enviado para a nuvem
+Console: 2025-08-13 18:02:27 - SalvarCnd: 05.682.283/0001-12 - SALVA
+Console: 2025-08-13 18:02:27 - ------------------------------
+Console: 2025-08-13 18:02:27 -
+
+Console: 2025-08-13 18:02:27 - ----------------------------------------------
+Console: 2025-08-13 18:02:27 - Quantidade: 2/826
+Console: 2025-08-13 18:02:27 - Empresa: 35.036.381/0001-43
+Console: 2025-08-13 18:02:27 - ----------------------------------------------
+Console: 2025-08-13 18:02:27 -
+
+Console: 2025-08-13 18:02:27 - Nova empresa: 35.036.381/0001-43
+Console: 2025-08-13 18:02:27 - Iniciando busca de CND por API
+Console: 2025-08-13 18:02:35 - CndRfbPgfn (8s): 35036381000143 - 200 - A requisição foi processada com sucesso.
+Console: 2025-08-13 18:05:05 - Motivo: CERTIDÃO POSITIVA COM EFEITOS DE NEGATIVA DE DÉBITOS RELATIVOS AOS TRIBUTOS FEDERAIS E À DÍVIDA ATIVA DA UNIÃO
+Console: 2025-08-13 18:05:05 - Situação da CND: PositivaEfeito
+Console: 2025-08-13 18:05:05 - SalvarCnd: Inicio
+Console: 2025-08-13 18:05:08 - Enviado para a nuvem
+Console: 2025-08-13 18:05:08 - SalvarCnd: 35.036.381/0001-43 - SALVA
+Console: 2025-08-13 18:05:08 - ------------------------------
+Console: 2025-08-13 18:05:08 -
+
+Console: 2025-08-13 18:05:08 - ----------------------------------------------
+Console: 2025-08-13 18:05:08 - Quantidade: 3/826
+Console: 2025-08-13 18:05:08 - Empresa: 30.357.744/0001-29
+Console: 2025-08-13 18:05:08 - ----------------------------------------------
+Console: 2025-08-13 18:05:08 -
+
+Console: 2025-08-13 18:05:08 - Nova empresa: 30.357.744/0001-29
+Console: 2025-08-13 18:05:08 - Iniciando busca de CND por API
+Console: 2025-08-13 18:05:25 - CndRfbPgfn (17s): 30357744000129 - 200 - A requisição foi processada com sucesso.
+Console: 2025-08-13 18:05:26 - Motivo: CERTIDÃO NEGATIVA DE DÉBITOS RELATIVOS AOS TRIBUTOS FEDERAIS E À DÍVIDA ATIVA DA UNIÃO
+Console: 2025-08-13 18:05:26 - Situação da CND: Negativa
+Console: 2025-08-13 18:05:26 - SalvarCnd: Inicio
+Console: 2025-08-13 18:05:28 - Enviado para a nuvem
+Console: 2025-08-13 18:05:28 - SalvarCnd: 30.357.744/0001-29 - SALVA
+Console: 2025-08-13 18:05:28 - ------------------------------
+Console: 2025-08-13 18:05:28 -
+
+Console: 2025-08-13 18:05:28 - ----------------------------------------------
+Console: 2025-08-13 18:05:28 - Quantidade: 4/826
+Console: 2025-08-13 18:05:28 - Empresa: 51.194.468/0001-03
+Console: 2025-08-13 18:05:28 - ----------------------------------------------
+Console: 2025-08-13 18:05:28 -
+
+Console: 2025-08-13 18:05:28 - Nova empresa: 51.194.468/0001-03
+Console: 2025-08-13 18:05:28 - Iniciando busca de CND por API
+Console: 2025-08-13 18:05:32 - CndRfbPgfn (4s): 51194468000103 - 620 - O site ou aplicativo de origem emitiu um erro que provavelmente não mudará em breve para esta consulta. Leia-o para saber mais.
+Console: 2025-08-13 18:05:33 - Resultado da API salvo na subpasta Error Response.
+Console: 2025-08-13 18:05:33 - Motivo: Inscrição no CNPJ 51.194.468/0001-03 Suspensa  - Solicitação de baixa indeferida, emissão de certidão não permitida.
+Console: 2025-08-13 18:05:33 - Situação da CND: Positiva
+Console: 2025-08-13 18:05:33 - SalvarCnd: Inicio
+Console: 2025-08-13 18:05:33 - Enviado para a nuvem
+Console: 2025-08-13 18:05:33 - SalvarCnd: 51.194.468/0001-03 - SALVA
+Console: 2025-08-13 18:05:33 - ------------------------------
+Console: 2025-08-13 18:05:33 -
+
+Console: 2025-08-13 18:05:33 - ----------------------------------------------
+Console: 2025-08-13 18:05:33 - Quantidade: 5/826
+Console: 2025-08-13 18:05:33 - Empresa: 17.413.490/0001-50
+Console: 2025-08-13 18:05:33 - ----------------------------------------------
+Console: 2025-08-13 18:05:33 -
+
+Console: 2025-08-13 18:05:33 - Nova empresa: 17.413.490/0001-50
+Console: 2025-08-13 18:05:33 - Iniciando busca de CND por API
