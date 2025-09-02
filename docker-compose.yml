@@ -1,20 +1,18 @@
 version: '3.9'
 
 services:
- backend:
-  build:
-   context: ./backend
-  ports:
-   - "5001:5000"
-  volumes:
-   - ./backend:/app
-  restart: always
+  backend:
+    build: ./backend
+    container_name: pizzaria-backend
+    ports:
+      - "5001:5001"    # opcional, só se quiser testar direto
+    environment:
+      - PORT=5001
 
- frontend:
-  build:
-   context: ./frontend
-  ports:
-    - "8080:80"
-  volumes:
-    - ./frontend:/app  ##volume bindmount
-  restart: always
+  frontend:
+    build: ./frontend
+    container_name: pizzaria-frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
